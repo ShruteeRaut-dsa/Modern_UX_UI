@@ -36,7 +36,7 @@ const result = await processData(input)
   },
 ];
 
-export default function Features() {
+export default function Feature() {
   return (
     <section
       id="features"

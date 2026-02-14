@@ -4,7 +4,7 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import Pricing from "./components/Pricing";
-import Features from "./components/features";
+import Feature from "./components/Feature";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,7 +22,7 @@ function App() {
     <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
       <Navbar scrolled={scrolled} />
       <Hero />
-      <Features />
+      <Feature />
       <Pricing />
       <Testimonials />
       <Footer />
